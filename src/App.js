@@ -4,7 +4,7 @@ import './App.css';
 
 import Login from './components/Utils/Forms/Login/Login';
 import Signup from './components/Utils/Forms/Signup/Signup';
-import Test from './components/Utils/Forms/Test/Test';
+import Beers from './pages/Beers';
 
 function App() {
   return (
@@ -16,6 +16,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <Signup />
+          </Route>
+          <Route path="/restaurant/beers">
+            <Beers />
           </Route>
           <Route path="*">
             <NotFound />
