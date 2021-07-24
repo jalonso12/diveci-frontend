@@ -17,9 +17,6 @@ function App() {
           <Route path="/signup">
             <Signup />
           </Route>
-          <Route path="/test">
-            <Test />
-          </Route>
           <Route path="*">
             <NotFound />
           </Route>
