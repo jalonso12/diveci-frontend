@@ -1,0 +1,15 @@
+.Login {
+  font-weight: 300;
+}
+
+/* REMOVE LATER */
+h1, pre {
+  color: #282c34;
+}
+h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+pre {
+  font-size: x-large;
+}
